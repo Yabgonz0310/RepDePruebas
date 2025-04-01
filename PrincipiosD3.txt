@@ -1,0 +1,42 @@
+Localizadores CSS
+
+Buscador:
+Búsqueda por id
+    #buscador-menu-input
+
+Atajos
+Búsqueda por clase y atributo
+    .text-option
+    [title="Atajos"]
+
+Telcel
+Búsqueda por clase y atributo
+    .js-responsive-image
+    [title="Telcel"]
+
+Paquetes y recargas
+Búsqueda jerarquica
+    a#paquetes-recarga>span.text-option
+
+Mas información
+div.telcel-destacado-descriptivo---contenido-contenedor>button
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Localizadores XPATH
+
+Buscador:
+//input[@id="buscador-menu-input"]
+
+Atajos
+//span[@class="text-option"]
+//span[text()="Atajos"]
+
+Telcel
+//a[@title="Telcel"]
+
+Paquetes y recargas
+(//span[@class="text-option"])[4]
+
+Mas información
+//button[@class="telcel-controles-cta telcel-controles-cta--inline-block"]
